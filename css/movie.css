@@ -107,23 +107,52 @@ img.float {
 
 .general-over{
 
-    clear:left;
-    background-color: #A2B964;
+    clear:left; 
     width: 250px;
     height: auto;
     padding: 10px;
-    margin-top: -30px;
+    margin-top: 0px;
+    
+    
+    
 }
 
 .over-img {
     position: absolute;
+    width: 250px;
     top: 0px;
     right: 0px;
 }
 .review-desc {
     position: absolute;
-    bottom: 110px;
+    width: 250px;
+    float: right;
+    bottom: 0em;
+    top: 20rem;
     right: 0px;
+    background-color: #A2B964;
+    overflow: hidden;
+   
+}
+.rating {
+    position: absolute;
+    clear: both;
+    background-color: #A2B964;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.general-over dl {
+    padding: 20px;
+}
+dt {
+    font-weight: bold;
+   
+}
+dd {
+    margin-bottom: 10px;
 }
 #footer {
     
