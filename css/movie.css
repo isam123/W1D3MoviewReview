@@ -1,7 +1,7 @@
 
 body {
     margin: 0px;
-    background-image: url("images/background.png");
+    background-image: url("../images/background.png");
 }
 .container {
 
@@ -19,13 +19,13 @@ body {
 }
 header {
     min-width: 100%;
-    background-image: url("images/bannerbg.png");
+    background-image: url("../images/bannerbg.png");
     height: 50px;   
 
 }
 
 .banner {
-    background-image: url("images/banner.png");
+    background-image: url("../images/banner.png");
     width: 50%;
     height: 50px;
     background-repeat: no-repeat;
@@ -51,7 +51,7 @@ header {
 
     max-width: inherit;
     height: 83px; 
-    background-image: url("images/rbg.png");
+    background-image: url("../images/rbg.png");
     background-repeat: repeat;
     position: relative;
     
