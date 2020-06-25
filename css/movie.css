@@ -56,6 +56,9 @@ header {
     position: relative;
     
 }
+a {
+    display:block;
+}
 #rating{
     display: inline-block;
     color: red;
